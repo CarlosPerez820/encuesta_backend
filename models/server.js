@@ -45,7 +45,6 @@ class Server{
         this.app.use(this.usuariosPath, require('../routes/usuario'));
         this.app.use(this.barredoresPath, require('../routes/barredor'));
         this.app.use(this.encuestasPath, require('../routes/encuesta'));
-        this.app.use(this.peticionesPath, require('../routes/peticion'));
         this.app.use(this.seguimientoPath, require('../routes/seguimiento'));
 
         // Regla de reescritura para Angular (al final)
